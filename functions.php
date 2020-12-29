@@ -28,14 +28,7 @@ function University_post_types(){
         'labels' => array(
             'name' => 'Events',
         ),
-    ));
-    register_post_type('education',array(
-        'public' => true,
-        'menu_icon' => 'dashicons-calendar',
-        'labels' => array(
-            'name' => 'Education',
-        ),
-    ));    
+    )); 
 }
 
 add_action('init','University_post_types');
